@@ -26,7 +26,7 @@ https://templatemo.com/tm-597-neural-glass
      -moz-osx-font-smoothing: grayscale;
 }
 /* Enhanced background colors - Purple/Pink/Green palette */
- .neural-background {
+ .Home-background {
      position: fixed;
      top: 0;
      left: 0;
@@ -107,7 +107,7 @@ https://templatemo.com/tm-597-neural-glass
     }
 }
 /* Neural network lines */
- .neural-lines {
+ .Home-lines {
      position: fixed;
      top: 0;
      left: 0;
@@ -115,27 +115,27 @@ https://templatemo.com/tm-597-neural-glass
      height: 100%;
      z-index: -1;
 }
- .neural-line {
+ .Home-line {
      position: absolute;
      background: linear-gradient(90deg, transparent, #00ffff, transparent);
      height: 1px;
      animation: neuralPulse 3s ease-in-out infinite;
 }
- .neural-line:nth-child(1) {
+ .Home-line:nth-child(1) {
      top: 20%;
      left: 0;
      width: 100%;
      background: linear-gradient(90deg, transparent, #e0a3ff, transparent);
      animation-delay: 0s;
 }
- .neural-line:nth-child(2) {
+ .Home-line:nth-child(2) {
      top: 60%;
      left: 0;
      width: 100%;
      background: linear-gradient(90deg, transparent, #ff69b4, transparent);
      animation-delay: -1s;
 }
- .neural-line:nth-child(3) {
+ .Home-line:nth-child(3) {
      top: 40%;
      left: 0;
      width: 100%;
